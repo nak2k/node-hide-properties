@@ -1,0 +1,32 @@
+{
+  "name": "hide-properties",
+  "version": "0.0.1",
+  "description": "Hide properties",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-hide-properties/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/nak2k/node-hide-properties",
+  "keywords": [
+    "properties",
+    "util"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-hide-properties.git"
+  },
+  "scripts": {
+    "prepare": "npm test",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
