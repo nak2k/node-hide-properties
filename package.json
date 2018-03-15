@@ -22,7 +22,7 @@
     "url": "git+https://github.com/nak2k/node-hide-properties.git"
   },
   "scripts": {
-    "prepare": "npm test",
+    "prepublishOnly": "npm test",
     "test": "tape test/test*.js"
   },
   "files": [
